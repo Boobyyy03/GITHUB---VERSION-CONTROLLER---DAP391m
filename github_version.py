@@ -1,9 +1,9 @@
 print('hello world')
 def isEvenNumber(n: int):
-    pass
+    return n % 2 == 0
 
 def isSquareNumber(n: int):
-    pass
+    return int(n ** 0.5) ** 2 == n
 
 if __name__ == "__main__":
     n = int(input())
