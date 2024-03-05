@@ -1,0 +1,3 @@
+def print_function_update():
+  print("Tôi Yêu Ép Bê Tê")
+print_function_update()
