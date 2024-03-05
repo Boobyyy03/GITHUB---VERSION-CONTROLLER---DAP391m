@@ -1,0 +1,3 @@
+def my_function():
+  print("Tôi Yêu Ép Bê Tê")
+my_function()
