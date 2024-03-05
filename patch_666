@@ -1,0 +1,16 @@
+n = int(input("Nhap so n: "))
+def  Even(n):
+    if n % 2 == 0:
+        return True
+    return False
+def isSquare(n):
+    if int(n ** (1/2)) == (n ** (1/2)):
+        return True
+    return False
+
+def isEvenAndIsSquare(n):
+    if (Even(n) is True) and (isSquare(n) is True):
+        return True
+    return False
+
+print(isEvenAndIsSquare(n))
